@@ -16,7 +16,7 @@ function GTM() {
 
   useEffect(() => {
     const script = document.createElement("script");
-    script.src = "https://www.googletagmanager.com/gtm.js?id=GTM-P67R6GVZ";
+    script.src = "https://www.googletagmanager.com/gtm.js?id=GTM-PXK5WJ6P";
     script.async = true;
     document.head.appendChild(script);
   }, []);
@@ -25,7 +25,7 @@ function GTM() {
   return (
     <noscript>
       <iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-P67R6GVZ"
+        src="https://www.googletagmanager.com/ns.html?id=GTM-PXK5WJ6P"
         height="0"
         width="0"
         style={{ display: "none", visibility: "hidden" }}
