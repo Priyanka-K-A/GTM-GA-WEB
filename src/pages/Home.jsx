@@ -26,7 +26,7 @@ function Home() {
       <button onClick={() => handleEvent("download_data", "Data downloaded!")}>
         Download Data
       </button>
-      <button onClick={() => handleEvent("share_reports", "Reports shared!")}>
+      <button className='share-btn' onClick={() => handleEvent("share_reports", "Reports shared!")}>
         Share reports
       </button>
     </div>
